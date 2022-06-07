@@ -16,7 +16,7 @@ const toDoList = (event) => {
   let userData = document.querySelector("#user-data").value;
   
   // Is it my user data empty?
-  if(!userData === "") {
+  if(!userData == "") {
     
     // Step 1 creating the element
     let newLi = document.createElement("li");
