@@ -1,12 +1,12 @@
 const newElement = document.createElement("h1");
 
-const nodeText = document.createTextNode("My To Do List");
+const nodeText = document.createTextNode("My to do list");
 
 newElement.appendChild(nodeText);
 
 document.body.appendChild(newElement);
 
-const arr = [];
+const array = [];
 const ul = document.querySelector("ul");
 
 // The function where the clients will submit
@@ -43,7 +43,7 @@ const toDoList = (event) => {
     delBtn.addEventListener("click", () => newLi.remove());
     doneBtn.addEventListener("click", () => newLi.classList.add("done"));
 
-    // When the user write something, and then the input should be clean
+    // The user write something, then the input should be clean
     document.querySelector("#user-data").value = "";
 
     // Message for an empty placeholder

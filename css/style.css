@@ -18,24 +18,27 @@ body {
   position: relative;
 }
 
-form input {
-  color:violet;
-  background-color: rgb(205, 233, 245);
-  border-radius: 6%;
-  border: 2px rgb(230, 152, 230) solid;
-}
-
 h1 {
+  width: 40vw;
+  height: 20vh;
   color:plum;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
+input {
+  color:violet;
+  background-color: rgb(211, 231, 240);
+  border-radius: 5%;
+  border: 2px rgb(230, 152, 230) solid;
+  margin: 10px;
+}
+
 ul {
-  width: 55vw;
-  height: 70vh;
-  top: 120px;
-  left: 400px;
+  width: 90vw;
+  height: 50vh;
+  top: 100px;
+  left: 50px;
   position: absolute;
   display: flex;
   flex-direction: wrap;
@@ -46,24 +49,23 @@ ul li {
   height: 100vh;
   display: flex;
   justify-content:center;
-  align-items: center;
+  align-items:center;
   flex-direction: row;
+  font-weight: bold;
+  font-size: 24px;
   background-image: url(/e11/projects/To-Do-List/img/nube.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  color:yellowgreen;
+  color:plum;
 }
 
 ul li button {
-  width: 2vw;
-  height: 3.5vh;
-  justify-content: space-around;
-  justify-self: end;
+  justify-self:center;
   border: transparent;
 }
 
 button {
-  border: 2px plum solid;
+  border: none;
   background-color: transparent;
 }
 
