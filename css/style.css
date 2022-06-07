@@ -1,11 +1,12 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 body {
   width: 100vw;
+  height: auto;
   background-image: url(/e11/projects/To-Do-List/img/paper.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,7 +19,6 @@ body {
 }
 
 form input {
-  margin: 40px;
   color:violet;
   background-color: rgb(205, 233, 245);
   border-radius: 6%;
@@ -26,17 +26,15 @@ form input {
 }
 
 h1 {
-  margin: 30px;
   color:plum;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
 ul {
-  margin: 100px;
-  width: 50vw;
+  width: 55vw;
   height: 70vh;
-  top: 100px;
+  top: 120px;
   left: 400px;
   position: absolute;
   display: flex;
@@ -44,22 +42,24 @@ ul {
 }
 
 ul li {
-  width: 40vw;
-  height: 30vh;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  justify-content:space-evenly;
+  justify-content:center;
   align-items: center;
   flex-direction: row;
   background-image: url(/e11/projects/To-Do-List/img/nube.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  color:yellowgreen;
 }
 
 ul li button {
   width: 2vw;
   height: 3.5vh;
+  justify-content: space-around;
   justify-self: end;
-  border: 2px plum solid;
+  border: transparent;
 }
 
 button {
@@ -73,6 +73,5 @@ button {
 }
 
 .not-done {
-  color: black;
   text-decoration: none;
 }
