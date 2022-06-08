@@ -7,7 +7,7 @@
 body {
   width: 100vw;
   height: auto;
-  background-image: url(/projects/To-Do-List/img/paper.jpeg);
+  background-image: url(../img/paper.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -53,7 +53,7 @@ ul li {
   flex-direction: row;
   font-weight: bold;
   font-size: 24px;
-  background-image: url(/projects/To-Do-List/img/nube.png);
+  background-image: url(../img/nube.png);
   background-size: contain;
   background-repeat: no-repeat;
   color:plum;
