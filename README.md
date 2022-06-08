@@ -1,8 +1,8 @@
 # To-Do-List
 
-## [Test this app yourself]([https://luciapannunzio.github.io/To-Do-List/)])
+## [Test this app yourself]( https://luciapannunzio.github.io/To-Do-List/)
 
-![Screenshot from 2022-06-08 09-14-40](https://user-images.githubusercontent.com/89199990/172555850-7294f342-1efb-4527-8bea-57f5a405629d.png)
+![todo](https://user-images.githubusercontent.com/89199990/172557172-b87438d8-b977-4f52-a892-1420e6fa6f19.png)
 
 
 
