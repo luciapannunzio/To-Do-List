@@ -78,4 +78,5 @@ LinkedIn: [luciapannunziovanderwedden](https://www.linkedin.com/in/luciapannunzi
 * * *
 
 
-Made with :heart: by Lucia Pannunzio
+
+Made by Lucia Pannunzio (✿◠‿◠✿)
